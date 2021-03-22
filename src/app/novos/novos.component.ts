@@ -102,11 +102,11 @@ keyEvent(event: KeyboardEvent) {
     }     
   }
 
-//Evento de tocar na foto
-
-  public open() {
-    alert(this.etiqueta);
-    //console.log('Open ');
+//Evento de tocar na foto 
+  
+  public open(url_foto_clicada:String,etiqueta:String) {
+    //alert("fanta "+url_foto_clicada);
+    //alert("nta "+etiqueta);
   }
 
 // Chama o serviço para obtém todas as fotos
